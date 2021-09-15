@@ -23,7 +23,7 @@ spinner = Halo(stream=sys.stderr)
 # must reside in root folder
 # change the extension version for newer versions
 EXTENSION_FILE_VERSION = ""
-EXTENSION_FILE = "chrome-ghclassroom-waiter{EXTENSION_FILE_VERSION}.crx"
+EXTENSION_FILE = f"chrome-ghclassroom-waiter{EXTENSION_FILE_VERSION}.crx"
 
 
 def cache_extension_path() -> Path:
